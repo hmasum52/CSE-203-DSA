@@ -35,7 +35,7 @@ Runtime also depends on the hardware the program is runnning.
 
 ## Experimental Studies
 
-<img src="./README-assets/image-20210302221712114.png" height="240" style="margin: 10px auto;display: block;"></img>
+<img src="./README-assets/image-20210302221712114.png" height="240" style="margin: 10px auto;display: block;">
 
 
 
@@ -63,7 +63,7 @@ If we want to analyze a algo theoretically we need to model the algo like the fo
 
 When a instruction is given to the computer the CPU access an element(memory cell that can hold a number or character) from ram and do some operations. So the operations here is accessing elements from memory and operations done by CPU.
 
-<img src="./README-assets/image-20210308210913900.png" height="240" style="margin: 10px auto;display: block;"></img>
+<img src="./README-assets/image-20210308210913900.png" style="margin: 10px auto;display: block;" width="600">
 
 
 ## Primitive Operations
@@ -115,7 +115,7 @@ First we have to write the code or pseudocode of an algorithm. Then we have to m
 
 For example in the following picture our the for loop runs n times and let assume there is 2 operation inside(though there is more). So runtime function, f(n) = 2n which is a linear function of n and the complexity class of the function is O(n).
 
-<img src="./README-assets/image-20210303001048623.png" height="240" style="margin: 10px auto;display: block;"></img>
+<img src="./README-assets/image-20210303001048623.png"  width="600" style="margin: 10px auto;display: block;">
 
 ## Asymptotic Analysis
 
@@ -134,22 +134,22 @@ significant terms
 
 From the the graph we can see n<sup>2</sup> dominates the runtime of algo. Constant and 100n+300 has less effect on runtime when input size is much larger. So we need to model only  n<sup>2</sup> and can drop constants and 100n+300 which are less significant.
 
-<img src="./README-assets/image-20210303002324266.png" height="240" style="margin: 10px auto;display: block;"></img>
+<img src="./README-assets/image-20210303002324266.png"  width="600" style="margin: 10px auto;display: block;">
 
 ## Asymptotic Notations: Big Oh, Omega, and Theta
 
 - Big-Oh is an upper bound: algorithm takes **at most this long** to run in worst case.
 
-<img src="./README-assets/image-20210303003145359.png" style="margin: 10px auto;display: block;"></img>
+<img src="./README-assets/image-20210303003145359.png" style="margin: 10px auto;display: block;"  width="600">
 
-<img src="./README-assets/image-20210313000547083.png" style="margin: 10px auto;display: block;" height="400"></img>
+<img src="./README-assets/image-20210313000547083.png" style="margin: 10px auto;display: block;"  width="600">
 
 
 
 
 - Big-Omega is a lower bound: algorithm takes **at least this long** to run.
 
-<img src="./README-assets/image-20210313000736554.png" style="margin: 10px auto;display: block;" height="400"></img>
+<img src="./README-assets/image-20210313000736554.png" style="margin: 10px auto;display: block;"  width="600">
 
 - Big Theta is “equal to (tight bound)" : algorithm **takes “exactly”* this long to run**.
   
@@ -157,11 +157,9 @@ From the the graph we can see n<sup>2</sup> dominates the runtime of algo. Const
     
     - Only exists when Big-Oh == Big-Omega!
 
-<img src="./README-assets/image-20210303003300517.png" style="margin: 10px auto;display: block;"></img>
+<img src="./README-assets/image-20210303003300517.png" style="margin: 10px auto;display: block;"  width="600">
 
-<img src="./README-assets/image-20210313001745076.png" style="margin: 10px auto;display: block;" height="450"></img>
-
-![image-20210313001745076]()
+<img src="./README-assets/image-20210313001745076.png" style="margin: 10px auto;display: block;"  width="600" >
 
 ### Example
 
@@ -175,5 +173,5 @@ Common mathematical function which can be use as complexity class of function.
 
 1< log n < n < n log n < n<sup>2</sup> < 2<sup>n</sup> < n!
 
-<img src="./README-assets/image-20210308220113566.png" style="margin: 10px auto;display: block;" height="300"></img>
+<img src="./README-assets/image-20210308220113566.png" style="margin: 10px auto;display: block;"  width="600">
 

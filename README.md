@@ -1,6 +1,6 @@
 # CSE-203 Data-Structure
 
-![image-20210301172125351](README-assets/image-20210301172125351.png)
+<img src="./README-assets/image-20210301172125351.png" style="margin: 10px auto;display: block;" width="600" >
 
 ### **Course teacher**
 
