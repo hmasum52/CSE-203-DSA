@@ -84,14 +84,14 @@ By inspecting the pseudocode, we can determine the maximum number of primitive o
 
 ```pseudocode
 /*used model: here we considered array index, assigning and returing individual operations*/
-Algorithm arrayMax (A, n) 			# operations    
-	currentMax ← A[0]					 2     	      or   1
-	for i ← 1 to n − 1 do 				 2n    	       or   n
-		if A[i] > currentMax then	   2(n − 1) 	   or  n-1
-			currentMax ← A[i] 		  2(n − 1) 	       or  n-1
-		{ increment counter i }		   2(n − 1) 	   or  n-1
-	return currentMax					 1             		1
-							   Total 8n − 2(model-1)      4n-1(model-2)
+Algorithm arrayMax (A, n) 				# operations    
+	currentMax ← A[0]				2 or 1
+	for i ← 1 to n − 1 do				2n or n
+		if A[i] > currentMax then		2(n − 1) or  n-1
+			currentMax ← A[i]		2(n − 1) or  n-1
+		{ increment counter i }			2(n − 1) or  n-1
+	return currentMax				1	or	1
+							Total 8n − 2[model-1] or 4n-1[model-2]
 ```
 
 ## Estimating Running Time

@@ -25,7 +25,7 @@ In last lecture we have seen Big Oh, Big Omega, and Big Theta asymptotic notatio
 
 <u>**Example:  Θ exists**</u>
 
-**Let $$f(n) = 2n + 1$$ denotes the total number of operation for an algorithm.**  
+**Let $$ f(n) = 2n + 1 $$ denotes the total number of operation for an algorithm.**  
 Now $$2n+1 \leq 3*n $$, for $n \geq $.1 So for  $$n_0 = 1 ,c = 3,g(n) = n$$ algorithm has **upper bound O(n)**.
 
 Again, $$2n+1 \geq 1*n $$. So for  $$c = 1,g(n) = n$$ algorithm has **lower bound  Ω(n)**.

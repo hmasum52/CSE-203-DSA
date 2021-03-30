@@ -18,9 +18,9 @@
 ### Week by Week progression(dd/mm/yyyy)
 
 - Week-1 (MEA)
-  - Class - 1 - 28-02-2021 : Introduction to Data structure and algorithm | [SLIDE](https://drive.google.com/drive/folders/1TvfHJ0dDtURbmSXAEXgnaylD5YWiyWr8) | 
-  - Class - 2 - 01-03-2021 : Asymptotic analysis | [SLIDE](https://drive.google.com/drive/folders/1TvfHJ0dDtURbmSXAEXgnaylD5YWiyWr8) | 
-  - Class - 3 - 03 -03-2021: Asymptotic analysis-2 | [SLIDE](https://drive.google.com/drive/folders/1TvfHJ0dDtURbmSXAEXgnaylD5YWiyWr8) |
+  - Class - 1 - 28-02-2021 : Introduction to Data structure and algorithm | [SLIDE](https://drive.google.com/drive/folders/1TvfHJ0dDtURbmSXAEXgnaylD5YWiyWr8) | [Documentation](./weeks/week1/C1-Intro) |
+  - Class - 2 - 01-03-2021 : Asymptotic analysis | [SLIDE](https://drive.google.com/drive/folders/1TvfHJ0dDtURbmSXAEXgnaylD5YWiyWr8) | [Documentation](./weeks/week1/C2-Asymptotic%20Analysis)
+  - Class - 3 - 03 -03-2021: Asymptotic analysis-2 | [SLIDE](https://drive.google.com/drive/folders/1TvfHJ0dDtURbmSXAEXgnaylD5YWiyWr8) | [Documentation](./weeks/week1/C3-Asymptotic%20Analysis-2)
 
 - Week-2 (MEA)
   - Class- 4 - 07-03-2021 : Abstract Data Type | [SLIDE](https://drive.google.com/drive/folders/1TvfHJ0dDtURbmSXAEXgnaylD5YWiyWr8) | 
